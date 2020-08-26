@@ -1,0 +1,58 @@
+Dec 04 16:36:47.513 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 04 16:36:47.513 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50195.
+Dec 04 16:36:48.013 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 04 16:36:48.013 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 04 16:36:48.013 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/gns_user.105-18-WIN-9.003/GNS3/projects/Topology 13\project-files\dynamips 
+Dec 04 16:36:48.013 GENERAL: working_dir=C:/Users/gns_user.105-18-WIN-9.003/GNS3/projects/Topology 13\project-files\dynamips
+Dec 04 16:36:48.013 HYPERVISOR: exec_cmd: vm create R8 8 c3745 
+Dec 04 16:36:48.029 VM: VM R8 created.
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 2008 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: c3745 get_mac_addr R8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_ram R8 256 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm slot_add_binding R8 2 0 NM-1FE-TX 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 NM-1FE-TX 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm slot_add_binding R8 4 0 NM-1FE-TX 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: c3745 set_mac_addr R8 c408.4250.0000 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x60ba18a8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_ios R8 C:\Users\gns_user.105-18-WIN-9.003\GNS3\images\IOS\c3745-advipservicesk9-mz.124-15.T4.extracted.bin 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm slot_add_binding R8 3 0 NM-1FE-TX 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_config R8 configs/i8_startup-config.cfg 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Dec 04 16:36:48.029 HYPERVISOR: exec_cmd: vm set_ghost_file R8 c3745-advipservicesk9-mz.124-15.T4.extracted.bin-256.ghost 
+Dec 04 16:36:48.076 HYPERVISOR: exec_cmd: nio create_udp udp-cfaa1fac-aed6-4dc2-8dd7-b7b2e47f9808 10019 127.0.0.1 10018 
+Dec 04 16:36:48.091 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 3 0 udp-cfaa1fac-aed6-4dc2-8dd7-b7b2e47f9808 
+Dec 04 16:36:48.091 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.122 HYPERVISOR: exec_cmd: nio create_udp udp-d3b9abb0-005a-4807-ad40-f69502eb4859 10017 127.0.0.1 10016 
+Dec 04 16:36:48.122 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 2 0 udp-d3b9abb0-005a-4807-ad40-f69502eb4859 
+Dec 04 16:36:48.122 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:36:48.138 HYPERVISOR: exec_cmd: nio create_udp udp-47756a8d-d07e-4c87-8279-a84e96b6c0c1 10021 127.0.0.1 10020 
+Dec 04 16:36:48.138 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 0 udp-47756a8d-d07e-4c87-8279-a84e96b6c0c1 
+Dec 04 16:36:48.138 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:43:20.143 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 16:43:20.147 HYPERVISOR: exec_cmd: vm start R8 
+Dec 04 18:03:13.192 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:09:27.613 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:19:51.285 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:05.474 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 18:20:05.474 HYPERVISOR: exec_cmd: vm stop R8 
+Dec 04 18:20:05.640 VM: VM R8 shutdown.
+Dec 04 18:20:10.861 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:11.125 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:11.367 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:11.527 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:11.761 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:12.647 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 04 18:20:12.658 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 04 18:20:12.679 HYPERVISOR: exec_cmd: vm delete R8 
+Dec 04 18:20:12.679 VM: VM R8 destroyed.
+Dec 04 18:20:12.691 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 04 18:20:13.119 HYPERVISOR: Stopped.
+Dec 04 18:20:13.120 GENERAL: reset done.

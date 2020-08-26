@@ -1,0 +1,16 @@
+# what compiler to use
+CC=gcc
+# what flags to use whithin the compiler
+CFLAGS= -pthread -o
+# what to compile
+TARGET = radio_server
+
+all:	clean	$(TARGET)
+
+$(TARGET): $(TARGET).c
+
+	$(CC) $(TARGET).c -o $(TARGET) $(CFLAGS)
+
+
+clean:
+	$(RM) $(TARGET)

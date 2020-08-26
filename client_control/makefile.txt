@@ -1,0 +1,15 @@
+# what compiler to use
+CC=gcc
+# what flags to use whithin the compiler
+CFLAGS= -pthread -o
+
+# what to compile
+TARGET = client_control
+
+$(TARGET): $(TARGET).c
+
+	$(CC) $(CFLAGS) $(TARGET) $(TARGET).c
+
+
+#clean:
+	#$(RM) $(TARGET)

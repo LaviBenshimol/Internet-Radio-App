@@ -1,0 +1,57 @@
+Nov 17 19:01:21.752 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 17 19:01:21.754 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57449.
+Nov 17 19:01:21.816 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 17 19:01:21.817 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 17 19:01:21.824 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/lavi1/GNS3/projects/Topology 9\project-files\dynamips 
+Nov 17 19:01:21.824 GENERAL: working_dir=C:/Users/lavi1/GNS3/projects/Topology 9\project-files\dynamips
+Nov 17 19:01:21.857 HYPERVISOR: exec_cmd: vm create R8 8 c3745 
+Nov 17 19:01:21.859 VM: VM R8 created.
+Nov 17 19:01:21.883 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 2008 
+Nov 17 19:01:21.892 HYPERVISOR: exec_cmd: c3745 get_mac_addr R8 
+Nov 17 19:01:21.895 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:21.917 HYPERVISOR: exec_cmd: vm slot_add_binding R8 3 0 NM-1FE-TX 
+Nov 17 19:01:21.921 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Nov 17 19:01:21.923 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Nov 17 19:01:21.939 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:21.954 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x60ba18a8 
+Nov 17 19:01:21.960 HYPERVISOR: exec_cmd: vm set_ios R8 C:\Users\lavi1\GNS3\images\IOS\c3745-advipservicesk9-mz.124-15.T4.extracted.bin 
+Nov 17 19:01:21.983 HYPERVISOR: exec_cmd: c3745 set_mac_addr R8 c408.4250.0000 
+Nov 17 19:01:21.995 HYPERVISOR: exec_cmd: vm set_ram R8 256 
+Nov 17 19:01:21.997 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+Nov 17 19:01:22.020 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:22.042 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 NM-1FE-TX 
+Nov 17 19:01:22.085 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:22.098 HYPERVISOR: exec_cmd: vm slot_add_binding R8 4 0 NM-1FE-TX 
+Nov 17 19:01:22.101 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:22.130 HYPERVISOR: exec_cmd: vm slot_add_binding R8 2 0 NM-1FE-TX 
+Nov 17 19:01:22.168 HYPERVISOR: exec_cmd: vm set_config R8 configs/i8_startup-config.cfg 
+Nov 17 19:01:22.187 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Nov 17 19:01:22.188 HYPERVISOR: exec_cmd: vm set_ghost_file R8 c3745-advipservicesk9-mz.124-15.T4.extracted.bin-256.ghost 
+Nov 17 19:01:22.373 HYPERVISOR: exec_cmd: nio create_udp udp-e5aad177-1ec0-4b08-9aaa-42cf9e38788d 10013 127.0.0.1 10012 
+Nov 17 19:01:22.399 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 2 0 udp-e5aad177-1ec0-4b08-9aaa-42cf9e38788d 
+Nov 17 19:01:22.401 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:22.474 HYPERVISOR: exec_cmd: nio create_udp udp-6322a24e-a61c-49a2-b1e8-6bee2518021e 10015 127.0.0.1 10014 
+Nov 17 19:01:22.494 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 3 0 udp-6322a24e-a61c-49a2-b1e8-6bee2518021e 
+Nov 17 19:01:22.497 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:22.532 HYPERVISOR: exec_cmd: nio create_udp udp-08c5ea4b-1ce8-43e8-9756-6e5624a96a23 10017 127.0.0.1 10016 
+Nov 17 19:01:22.556 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 0 udp-08c5ea4b-1ce8-43e8-9756-6e5624a96a23 
+Nov 17 19:01:22.563 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:50.076 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:01:50.079 HYPERVISOR: exec_cmd: vm start R8 
+Nov 17 19:10:14.043 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:17.401 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:18.091 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:14:18.092 HYPERVISOR: exec_cmd: vm stop R8 
+Nov 17 19:14:18.361 VM: VM R8 shutdown.
+Nov 17 19:14:20.099 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:20.440 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:20.628 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:20.840 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:21.081 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:25.320 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 17 19:14:25.323 HYPERVISOR: exec_cmd: vm extract_config R8 
+Nov 17 19:14:25.354 HYPERVISOR: exec_cmd: vm delete R8 
+Nov 17 19:14:25.354 VM: VM R8 destroyed.
+Nov 17 19:14:25.370 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 17 19:14:25.647 HYPERVISOR: Stopped.
+Nov 17 19:14:25.647 GENERAL: reset done.

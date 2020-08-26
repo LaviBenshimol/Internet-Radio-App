@@ -1,0 +1,20 @@
+Jan 03 15:47:50.572 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 03 15:47:50.574 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56377.
+Jan 03 15:47:50.585 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 03 15:47:50.618 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 03 15:47:50.620 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\lavi1\Google Drive\networks2\PROJECT\Topology 13\project-files\dynamips 
+Jan 03 15:47:50.621 GENERAL: working_dir=C:\Users\lavi1\Google Drive\networks2\PROJECT\Topology 13\project-files\dynamips
+Jan 03 15:47:50.647 HYPERVISOR: exec_cmd: ethsw create SW1 
+Jan 03 15:47:51.094 HYPERVISOR: exec_cmd: nio create_udp udp-546c031e-73dd-4e8b-a133-0dc77db62e1b 10012 127.0.0.1 10013 
+Jan 03 15:47:51.095 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-546c031e-73dd-4e8b-a133-0dc77db62e1b 
+Jan 03 15:47:51.119 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-546c031e-73dd-4e8b-a133-0dc77db62e1b 1 
+Jan 03 15:47:51.152 HYPERVISOR: exec_cmd: nio create_udp udp-f5bbd200-136c-4079-b988-a1922314dabb 10014 127.0.0.1 10015 
+Jan 03 15:47:51.153 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-f5bbd200-136c-4079-b988-a1922314dabb 
+Jan 03 15:47:51.185 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-f5bbd200-136c-4079-b988-a1922314dabb 1 
+Jan 03 15:47:51.479 HYPERVISOR: exec_cmd: nio create_udp udp-52c1d005-ceb5-41fd-8058-95a303700deb 10023 127.0.0.1 10022 
+Jan 03 15:47:51.480 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-52c1d005-ceb5-41fd-8058-95a303700deb 
+Jan 03 15:47:51.502 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-52c1d005-ceb5-41fd-8058-95a303700deb 1 
+Jan 03 15:48:56.526 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Jan 03 15:48:56.570 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 03 15:48:56.978 HYPERVISOR: Stopped.
+Jan 03 15:48:56.978 GENERAL: reset done.
